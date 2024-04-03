@@ -1,7 +1,11 @@
+body{
+    background-color: black;
+}
 .todolist{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     margin-top: 100px;
+    color: aliceblue;
 }
 h1{
     font-size: 4rem;
@@ -45,4 +49,29 @@ input[type="text"]{
 font-size: 1.6rem;
 padding: 10px;
 border: 2px solid hsl(0,0%, 0.5%);
+border-radius: 5px;
+color: hsl(120, 4%, 11%);
+}
+ol{
+    padding: 0;
+}
+li{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: white;
+    margin-bottom: 10pc;
+    border: 3px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    flex:1;
+}
+.deletebutton,.movedownbutton,.moveupbutton{
+    padding: 8px 12px;
+    font: 1.4rem;
+    margin-left: 10px;
+
 }
