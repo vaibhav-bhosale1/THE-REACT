@@ -6,7 +6,10 @@ function ToDoList(){
        setnewtask(event.target.value);
     }
     function addtask(){
-
+       if(newtask.trim()!==""){
+        settask(t=>[...t,newtask])
+        setnewtask("")
+       }
     }
     function deletetask(index){
 
