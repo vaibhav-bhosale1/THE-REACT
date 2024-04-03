@@ -1,0 +1,48 @@
+.todolist{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 100px;
+}
+h1{
+    font-size: 4rem;
+}
+button{
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: wheat;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5 ease;
+
+}
+.addbutton{
+    background-color: hsl(125,47%,54%);
+}
+.addbutton:hover{
+    background-color: hsl(125,47%,44%);
+}
+.deletebutton{
+    background-color: hsl(10,90%,50%);
+}
+.deletebutton:hover{
+    background-color: hsl(10,50%,40%);
+}
+.moveupbutton{
+    background-color: hsl(287,90%,50%);
+}
+.moveupbutton:hover{
+    background-color: hsl(300, 100%, 17%);
+}
+.movedownbutton{
+    background-color: hsl(176, 66%, 28%);
+}
+.movedownbutton:hover{
+    background-color: hsl(171, 100%, 15%);
+}
+input[type="text"]{
+font-size: 1.6rem;
+padding: 10px;
+border: 2px solid hsl(0,0%, 0.5%);
+}
