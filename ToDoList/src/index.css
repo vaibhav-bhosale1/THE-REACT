@@ -5,7 +5,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     margin-top: 100px;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 h1{
     font-size: 4rem;
@@ -56,15 +56,18 @@ ol{
     padding: 0;
 }
 li{
+    max-width: 800px;
     font-size: 2rem;
     font-weight: bold;
-    padding: 15px;
+    padding: 10px;
     background-color: white;
-    margin-bottom: 10pc;
+    margin-bottom: 10px;
+    margin-left: 215px;
     border: 3px solid black;
     border-radius: 5px;
     display: flex;
     align-items: center;
+    
 }
 .text{
     flex:1;
